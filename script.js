@@ -12,15 +12,10 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(255);
-  words.forEach((phrase) => { 
-    phraselist.push(phrase)});
-  image(backgroundimg,0,0);
-  console.log(phraselist);
-  noStroke();
 }
 
 function draw() {
-  let rate = 10;
-  const mooX = 410;
-  const mooY = 200;
+  noStroke();
+  fill(random(colorlist));
+  ellipse(mouseX, mouseY, 25, 25);
 }
