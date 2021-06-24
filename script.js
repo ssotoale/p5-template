@@ -1,11 +1,11 @@
 let colorlist = ['gold', 'yellow', 'turquoise', 'red']
 let backgroundimg;
-let words;
+let dojawords;
 let phraselist = [];
 
 
 function preload() {
-  words = loadStrings('./words.txt');
+  words = loadStrings('./dojawords.txt');
   backgroundimg = loadImage('https://wallpaperaccess.com/full/1862683.jpg');
 }
 
